@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@glitchdefi/web3": "0.0.3",
+    "cron": "^1.8.2",
     "dotenv": "^9.0.2",
     "i": "^0.3.6",
     "npm": "^7.14.0"
