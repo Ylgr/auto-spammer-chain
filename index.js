@@ -50,7 +50,7 @@ async function boardcastSpammer() {
         console.log('Faucet fail: ', e.message)
     }
 
-    const job = new CronJob('6 * * * * *', async function() {
+    const job = new CronJob('6 */37 * * * *', async function() {
         await boardcastSpammer();
     }, null, true, 'America/Los_Angeles');
     job.start();
